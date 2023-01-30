@@ -19,7 +19,8 @@ const ShopItemFunc = () => {
             <div class="price">{item.currency}{item.price.toFixed(2)}</div>
             <button>Добавить в корзину</button>
         </div>
-      </div>);
+      </div>
+      );
 
 }
 export default ShopItemFunc;
